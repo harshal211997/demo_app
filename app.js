@@ -3,8 +3,13 @@ async function firstSuccessfulPromise(promiseArray) {
   for (let promise of promiseArray) {
     try {
 		let b = 10;
+
 		
 		let isTrue = true;
+
+
+	    let c = 20;
+
       const result = await promise;
       return result;
     } catch (err) {
