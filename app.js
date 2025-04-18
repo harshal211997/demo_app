@@ -5,7 +5,7 @@ async function firstSuccessfulPromise(promiseArray) {
 		let b = 10;
 
 		
-		let isTrue = true;
+
 
 
 	    let c = 20;
