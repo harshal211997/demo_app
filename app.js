@@ -1,4 +1,5 @@
 async function firstSuccessfulPromise(promiseArray) {
+  const a = 10;
   for (let promise of promiseArray) {
     try {
 		let b = 10;
