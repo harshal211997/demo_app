@@ -9,11 +9,14 @@ async function firstSuccessfulPromise(promiseArray) {
 
 
 	    let c = 20;
+		
 
       const result = await promise;
       return result;
     } catch (err) {
       // Ignore the error and try the next one
+	  //JIRA02
+	  let str = 'Hii'
     }
   }
   return undefined;
