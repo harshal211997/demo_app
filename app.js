@@ -11,6 +11,10 @@ async function firstSuccessfulPromise(promiseArray) {
 	    let c = 20;
 		
 
+		//JIRA-01
+		let JIRA01 = 10;
+
+
       const result = await promise;
       return result;
     } catch (err) {
