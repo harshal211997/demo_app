@@ -21,6 +21,7 @@ async function firstSuccessfulPromise(promiseArray) {
       // Ignore the error and try the next one
 	  //JIRA02
 	  let str = 'Hii'
+	  let a = ;
     }
   }
   return undefined;
